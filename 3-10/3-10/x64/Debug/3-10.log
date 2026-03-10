@@ -1,0 +1,13 @@
+﻿  test.cpp
+D:\CPP project\cpp\3-10\test.cpp(235,7): error C2374: “p2”: 重定义；多次初始化
+      D:\CPP project\cpp\3-10\test.cpp(233,7):
+      参见“p2”的声明
+  
+D:\CPP project\cpp\3-10\test.cpp(235,7): error C2086: “int *p2”: 重定义
+      D:\CPP project\cpp\3-10\test.cpp(233,7):
+      参见“p2”的声明
+  
+D:\CPP project\cpp\3-10\test.cpp(236,8): error C2440: “初始化”: 无法从“nullptr”转换为“int”
+      D:\CPP project\cpp\3-10\test.cpp(236,8):
+      本机 nullptr 只能转换为 bool 或使用 reinterpret_cast 转换为整型
+  
