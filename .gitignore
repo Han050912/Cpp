@@ -9,11 +9,11 @@ bin-release/
 
 # Executables
 *.swf
-*.air 
+*.air
 *.ipa
 *.apk
 
-#杩囨护鎺変笉鎯宠鏂囦欢鍜屾枃浠跺す
+#过滤掉不想要文件和文件夹
 *.exe
 *.sln
 *.vcxproj
@@ -26,16 +26,6 @@ Debug/
 .vs
 Release/
 
-# 蹇界暐鎵�鏈?.txt 鍚庣紑鐨勬枃浠?
-*.txt
-
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
-
-
-
-Git-Auto-Push.bat
-Git操作日志.txt
-Git锟斤拷锟斤拷锟斤拷志.txt
-test_*
