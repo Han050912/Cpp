@@ -26,14 +26,14 @@ Debug/
 .vs
 Release/
 
-# å¿½ç•¥æ‰€æœ‰ .txt åç¼€çš„æ–‡ä»¶
+# å¿½ç•¥æ‰€æœ?.txt åç¼€çš„æ–‡ä»?
 *.txt
 
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
-Git-Auto-Push.bat
-Git²Ù×÷ÈÕÖ¾.txt
+
+
 
 Git-Auto-Push.bat
 Git²Ù×÷ÈÕÖ¾.txt
