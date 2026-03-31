@@ -23,6 +23,14 @@ int main()
 	SLPopFront(&s);
 	Print(&s);
 
+	SLInsert(&s, 2, 7);
+	Print(&s);
+
+	SLDel(&s, 1);
+	Print(&s);
+
+	SLFind(&s, 7);
+
 	Destroy(&s);
 
 	return 0;

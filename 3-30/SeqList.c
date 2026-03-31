@@ -89,3 +89,47 @@ void SLPopFront(SL* sl)
 	}
 	--sl->size;
 }
+
+//指定位置之前插入数据
+void SLInsert(SL* sl, int pos, SLDataType x)
+{
+	assert(sl);
+	assert(pos >= 0 && pos <= sl->size);
+
+	Expansion(sl);
+	for (int i = sl->size - 1; i >= pos; --i)
+	{
+		sl->arr[i + 1] = sl->arr[i];
+	}
+	sl->arr[pos] = x;
+	++sl->size;
+}
+
+//指定位置之前删除数据
+void SLDel(SL* sl, int pos)
+{
+	assert(sl);
+	assert(pos > 0 && pos <= sl->size);
+
+	for (int i = pos; i < sl->size; i++)
+	{
+		sl->arr[i - 1] = sl->arr[i];
+	}
+	--sl->size;
+}
+
+//查找数据
+void SLFind(SL* sl, SLDataType x)
+{
+	assert(sl);
+
+	for (int i = 0; i < sl->size; i++)
+	{
+		if (sl->arr[i] == x)
+		{
+			printf("找到了，下标为：%d", i);
+			return;
+		}
+	}
+	printf("没找到\n");
+}

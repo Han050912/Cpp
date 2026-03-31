@@ -40,3 +40,12 @@ void Print(SL* sl);
 
 //扩容
 void Expansion(SL* sl);
+
+//指定位置插入数据
+void SLInsert(SL* sl, int pos, SLDataType x);
+
+//指定位置删除数据
+void SLDel(SL* sl, int pos);
+
+//查找数据
+void SLFind(SL* sl, SLDataType x);
