@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
+#include "Contact.h"
 
 ////¾²Ì¬Ë³Ðò±í
 //#define N 6
@@ -11,7 +12,8 @@
 //	int size;
 //};
 
-typedef int SLDataType;
+typedef struct PersonInfo SLDataType;
+//typedef int SLDataType;
 typedef struct SeqList
 {
 	SLDataType* arr;

@@ -1,15 +1,15 @@
 #define  _CRT_SECURE_NO_WARNINGS
 #include "SeqList.h"
 
-//打印
-void Print(SL* sl)
-{
-	for (int i = 0; i < sl->size; i++)
-	{
-		printf("%d ", sl->arr[i]);
-	}
-	printf("\n");
-}
+////打印
+//void Print(SL* sl)
+//{
+//	for (int i = 0; i < sl->size; i++)
+//	{
+//		printf("%d ", sl->arr[i]);
+//	}
+//	printf("\n");
+//}
 
 //初始化
 void SLInit(SL* sl)
@@ -118,18 +118,18 @@ void SLDel(SL* sl, int pos)
 	--sl->size;
 }
 
-//查找数据
-void SLFind(SL* sl, SLDataType x)
-{
-	assert(sl);
-
-	for (int i = 0; i < sl->size; i++)
-	{
-		if (sl->arr[i] == x)
-		{
-			printf("找到了，下标为：%d", i);
-			return;
-		}
-	}
-	printf("没找到\n");
-}
+////查找数据
+//void SLFind(SL* sl, SLDataType x)
+//{
+//	assert(sl);
+//
+//	for (int i = 0; i < sl->size; i++)
+//	{
+//		if (sl->arr[i] == x)
+//		{
+//			printf("找到了，下标为：%d", i);
+//			return;
+//		}
+//	}
+//	printf("没找到\n");
+//}
